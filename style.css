@@ -1,0 +1,712 @@
+/* At the top of your CSS file */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.why-us {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.why-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.why-us p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 18px;
+}
+
+/* Call to Action Section */
+.call-to-action {
+    padding: 60px 20px;
+    background-color: #ff9900;
+    text-align: center;
+    color: white;
+}
+
+.call-to-action h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Header Section */
+.site-header {
+    background-color: #2e2e2e;
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.site-header
+
+.logo a {
+    color: #ff9900;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* space between image and text */
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo img {
+  height: 40px; /* adjust as needed */
+  width: auto;
+}
+
+
+.site-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.site-nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.site-nav ul li a:hover {
+    color: #ff9900;
+}
+/* Dropdown container */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background  : url('background\ image.png') no-repeat center center fixed; /* Background image */
+    background-size: cover;
+    color: #333;
+    position: relative;
+    z-index: 1;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Black color, 50% transparent */
+    z-index: -1; /* Put it behind the content */
+}
+/* Hero Section */
+.hero-section {
+    height: 100vh; /* Full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    color: white;
+    z-index: 2;
+    position: relative;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Button Style */
+.btn {
+    background-color: #ff9900;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+}
+/* Call to Action Section */
+.call-to-action {
+    background-color: #1d1313;
+    text-align: center;
+    padding: 60px 20px;
+    color: white;
+}
+
+.call-to-action h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Re-style the CTA button */
+.call-to-action .btn {
+    background-color: #ffffff;
+    color: #8f912e;
+    padding: 15px 40px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.call-to-action .btn:hover {
+    background-color: #ffd699;
+    color: #cc7a00;
+    transform: translateY(-5px);
+}
+/* Contact Section */
+.contact-section {
+    padding: 80px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #ff9900;
+    color: white;
+    font-size: 20px;
+    padding: 15px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+}
+
+.contact-details {
+    margin-top: 40px;
+    font-size: 18px;
+}
+.site-nav ul li a.active {
+    color: #ff9900;
+    font-weight: bold;
+}
+
+.social-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.social-links a:hover {
+    transform: scale(1.1);
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    padding: 4px;          /* Optional: adds inner spacing for visual balance */
+    background-color: white; /* Optional: gives them a uniform background */
+    border-radius: 50%;     /* Makes them all circular for a clean look */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Optional: subtle shadow */
+  }
+  
+.about-content {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95); /* Semi-white background for readability */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    color: #1a1a1a; /* Strong dark text */
+  }
+  
+  .about-content h1 {
+    font-size: 42px;
+    margin-bottom: 30px;
+    color: #111; /* Darker heading */
+  }
+  
+  .about-content p {
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  .about-section {
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+  .about-container {
+    display: flex;
+    max-width: 1200px;
+    gap: 40px;
+    align-items: stretch;
+    max-height: 600px; /* Limit total height here */
+    overflow: hidden;  /* Hide anything that goes beyond */
+    margin: 60px auto;
+    padding: 20px;
+  }
+  
+  .about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .about-images img {
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .about-text {
+    flex: 1;
+    overflow-y: auto; /* Scroll if text is longer than container */
+    padding-right: 10px;
+    color: #1a1a1a;
+  }
+  
+  
+  
+  .about-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #111;
+  }
+  
+  .about-text p {
+    font-size: 18px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+  
+  
+  
+.carousel-container {
+    perspective: 1000px;
+    margin: 80px auto;
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotateCarousel 20s linear infinite;
+  }
+  
+  .carousel img {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 100px; /* center inside container */
+    top: 75px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transform-origin: 0 0;
+  }
+  
+  /* Position each image in a circular pattern */
+  .carousel img:nth-child(1) { transform: rotateY(0deg) translateZ(300px); }
+  .carousel img:nth-child(2) { transform: rotateY(45deg) translateZ(300px); }
+  .carousel img:nth-child(3) { transform: rotateY(90deg) translateZ(300px); }
+  .carousel img:nth-child(4) { transform: rotateY(135deg) translateZ(300px); }
+  .carousel img:nth-child(5) { transform: rotateY(180deg) translateZ(300px); }
+  .carousel img:nth-child(6) { transform: rotateY(225deg) translateZ(300px); }
+  .carousel img:nth-child(7) { transform: rotateY(270deg) translateZ(300px); }
+  .carousel img:nth-child(8) { transform: rotateY(315deg) translateZ(300px); }
+  /* Add more nth-child if you add more images */
+  
+  @keyframes rotateCarousel {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  .carousel-container {
+    perspective: 1000px;
+    margin: 80px auto;
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+  
+  .carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotateCarousel 20s linear infinite;
+  }
+  
+  .carousel img {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 100px; /* center inside container */
+    top: 75px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    transform-origin: 0 0;
+  }
+  
+  /* Position each image in a circular pattern */
+  .carousel img:nth-child(1) { transform: rotateY(0deg) translateZ(300px); }
+  .carousel img:nth-child(2) { transform: rotateY(90deg) translateZ(300px); }
+  .carousel img:nth-child(3) { transform: rotateY(180deg) translateZ(300px); }
+  .carousel img:nth-child(4) { transform: rotateY(270deg) translateZ(300px); }
+  .carousel img:nth-child(5)  { transform: rotateY(180deg)  translateZ(300px); }
+  .carousel img:nth-child(6)  { transform: rotateY(225deg)  translateZ(300px); }
+  .carousel img:nth-child(7)  { transform: rotateY(270deg)  translateZ(300px); }
+  .carousel img:nth-child(8)  { transform: rotateY(315deg)  translateZ(300px); }
+  /* Add more nth-child if you add more images */
+  
+  @keyframes rotateCarousel {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
+  }
+  .carousel-container:hover .carousel {
+    animation-play-state: paused;
+  }
+  .site-footer {
+    background-color: #2e2e2e;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo a {
+    font-size: 28px;
+    color: #ff9900;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .footer-social a {
+    margin: 0 10px;
+    display: inline-block;
+  }
+  
+  .footer-social img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-social img:hover {
+    transform: scale(1.2);
+  }
+  .products-hero {
+    height: 60vh;
+    background: url('products\ hero.png') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .products-hero::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay for readability */
+    z-index: 1;
+  }
+  
+  .products-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .products-hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .products-hero-content p {
+    font-size: 22px;
+    line-height: 1.6;
+  }
+  .product-categories {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.category {
+  margin-bottom: 60px;
+}
+
+.category h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  border-left: 5px solid #00aa88;
+  padding-left: 10px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  margin: 15px 0 10px;
+  color: #333;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 4px 10px;
+  font-size: 12px;
+  background-color: #e6f4f1;
+  color: #007a66;
+  border-radius: 20px;
+}
+/* Force header background to your desired style */
+.site-header {
+  background-color: rgba(0, 0, 0, 0.6) !important; /* Semi-transparent dark */
+  color: white;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  position: relative;
+  z-index: 100;
+}
+
+/* Ensure nav items are aligned */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo a {
+  color: white !important;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Navigation styling */
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.site-nav li {
+  position: relative;
+}
+
+/* Nav links */
+.site-nav a.nav-link {
+  color: white !important;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: background 0.3s;
+}
+
+.site-nav a.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+/* Dropdown menu base state (hidden) */
+.dropdown-content {
+  display: none !important;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.95);
+  min-width: 200px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  z-index: 999;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Dropdown link styling */
+.dropdown-content a {
+  color: #333 !important;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Show dropdown only on hover */
+.dropdown:hover > .dropdown-content {
+  display: block !important;
+}
+/* Enhance visibility of dropdown */
+.dropdown-content {
+  background-color: #fff;
+  border: 2px solid #4CAF50; /* Green border for visibility */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: add hover highlight to links */
+.dropdown-content a:hover {
+  background-color: 
+  #aabf21; /* Light green background */
+}
+html.biochar-page body,
+body.biochar-page {
+  background-color: #ffffff !important;
+  background-image: none !important;
+  background: #ffffff !important;
+  color: #000000; /* Optional: ensures readability */
+}
+
+
+
